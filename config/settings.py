@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-p^-iq@fj91(5nz_#jm2*-jp+ozs%_%-cek+)9=*u$$u+659&ao
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "pingramm-backen.onrender.com",
+    "localhost",
+    "127.0.0.1",
+    ]
 
 
 # Application definition
