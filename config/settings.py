@@ -146,4 +146,5 @@ AUTH_USER_MODEL = "backend.User"
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'https://pingramm.vercel.app',
 ]
