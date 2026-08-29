@@ -48,7 +48,7 @@ class ProfileView(APIView):
         return Response(serializer.data)
 
 class ImagePagination(PageNumberPagination):
-    page_size = 10
+    page_size = 3
 
 class ImageUpLoadView(APIView):
     permission_classes = [IsAuthenticated]
